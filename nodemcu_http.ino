@@ -65,7 +65,8 @@ void loop() {
   }
 
 
-  char* url = "GET /getsensor.php?uid=Vishnu1&format=json \r\nHost:175.101.12.206\r\nUser-Agent:Arduino\r\nConnection: close\r\n\r\n";
+  //get request to the server
+  char* url = "";
   Serial.print("requesting URL: ");
   Serial.println(url);
   Serial.println("request sent");
