@@ -34,8 +34,8 @@ void setup() {
 
 
  
-}
-char message[]= "GET /setsensor.php?login=Vishnu1&password=Vishnu1&data=        p\r\nHost:175.101.12.206\r\nUser-Agent:Arduino\r\nConnection: close\r\n\r\n";
+}//get request to the server
+char message[]= "";
 char data[100];
 int pcount=0,spcount=0;
 char choice;
